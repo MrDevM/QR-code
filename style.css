@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500&family=Outfit:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212,45%,89%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+body .contaner{
+    max-width: 23%;
+    padding: 10px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    box-shadow: 5px 5px 25px hsl(212, 45%, 80%);
+}
+
+body .contaner img{
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+}
+body .contaner .text{
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+}
+body .contaner .text p{
+    color:  hsl(220, 15%, 55%);
+}
+body .contaner .text h3{
+    margin-bottom: 10px;
+}
+@media only screen and (max-width: 600px) {
+    body .contaner{
+        max-width: 70%;
+    }
+    body .contaner img{
+        height:300px;
+    }
+}
